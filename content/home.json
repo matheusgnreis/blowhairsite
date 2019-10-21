@@ -5,10 +5,13 @@
     "autoplay": 9000,
     "slides": [
       {
-        "img": "/img/uploads/rect89.png"
+        "img": "/img/uploads/banner-fullll.jpg"
       },
       {
-        "img": "/img/uploads/banner2.png"
+        "img": "/img/uploads/full2.jpg"
+      },
+      {
+        "img": "/img/uploads/full3.jpg"
       }
     ]
   },
