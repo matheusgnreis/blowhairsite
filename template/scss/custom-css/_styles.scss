@@ -7,3 +7,9 @@
   background: url(/img/uploads/box-produto.png) no-repeat center top;
   min-height: 480px!important;
 }
+.products-carousel:first-child > .products-carousel__title {
+  display: none !important
+}
+.banner-slider {
+  max-width: 100% !important;
+}
