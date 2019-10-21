@@ -1,1 +1,9 @@
 // Add your custom CSS here.
+.ec-product-card.product-card {
+  padding: 10px 55px 0 55px;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  background: url(/img/uploads/box-produto.png) no-repeat center top;
+  min-height: 480px!important;
+}
