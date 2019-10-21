@@ -1,22 +1,21 @@
 {
-  "store_id": 1052,
-  "name": "My Shop",
-  "domain": "myshop.com",
-  "short_name": "MyShop",
-  "description": "My PWA Shop",
+  "currency_symbol": "R$",
   "primary_color": "#383d44",
-  "secondary_color": "#ededed",
-  "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "logo": "",
+  "name": "BlowHair",
+  "short_name": "BlowHair",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#ededed",
+  "icon": "/img/icon.png",
+  "store_id": 1032,
+  "description": "My PWA Shop",
+  "large_icon": "/img/large-icon.png"
 }
