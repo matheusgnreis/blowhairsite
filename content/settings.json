@@ -1,21 +1,21 @@
 {
   "currency_symbol": "R$",
-  "primary_color": "#383d44",
+  "primary_color": "#351431",
   "theme": {
     "bootswatch": "_"
   },
-  "bg_color": "#ffffff",
-  "logo": "",
+  "bg_color": "#f1dede",
+  "logo": "/img/uploads/logo.png",
   "name": "BlowHair",
   "short_name": "BlowHair",
   "lang": "pt_br",
   "currency": "BRL",
-  "mini_logo": "",
+  "mini_logo": "/img/uploads/minilogo.png",
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "secondary_color": "#ededed",
-  "icon": "/img/icon.png",
+  "secondary_color": "#824c71",
+  "icon": "/img/uploads/logo.png",
   "store_id": 1032,
-  "description": "My PWA Shop",
-  "large_icon": "/img/large-icon.png"
+  "description": "Blow Hair São Vitaminas em Gomas Que Auxilia o Crescimento Capilar.",
+  "large_icon": "/img/uploads/logo.png"
 }
