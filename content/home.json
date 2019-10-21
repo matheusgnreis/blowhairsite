@@ -15,7 +15,7 @@
       }
     ]
   },
-  "pitbar": true,
+  "pitbar": false,
   "showcase": [],
   "additional_content": ""
 }
