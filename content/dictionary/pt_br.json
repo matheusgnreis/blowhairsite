@@ -1,10 +1,7 @@
 {
-  "buy": "Comprar",
-  "search_products": "Buscar productos",
+  "search_products": "Buscar produtos",
   "open_cart": "Abrir carrinho",
   "my_account": "Minha conta",
   "popular_products": "Produtos populares",
-  "see_all_category": "Ver toda a categoria :name",
-  "product_description": "Descrição do produto",
-  "product_specifications": "Especificações do produto"
+  "see_all_category": "Ver toda a categoria :name"
 }
