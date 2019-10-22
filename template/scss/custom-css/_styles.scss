@@ -16,7 +16,17 @@
 .btn.glide__arrow.glide__arrow--right, .btn.glide__arrow.glide__arrow--left {
   display: none !important;
 }
-.products-carousel .products-carousel__item:first-child, .products-carousel .products-carousel__item:nth-child(2)  {
-  width: 276.77px !important;
-  margin-right: 10% !important;
+@media (min-width: 998px) {
+  .products-carousel .products-carousel__item:first-child  {
+    width: 280px !important;
+    margin-right: 10% !important;
+    margin-left: 3%
+  }
+  .products-carousel .products-carousel__item:nth-child(2) {
+    width: 280px !important;
+    margin-right: 10% !important;
+  }
+  .glide__slides.products-carousel__list {
+    width: 1200px !important
+  }
 }
