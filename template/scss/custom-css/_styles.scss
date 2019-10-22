@@ -29,6 +29,10 @@
   .redes-sociais-footer-mobile {
     display: none !important;
   }
+  .redes-sociais-footer .container {
+    display: -webkit-box!important;
+    display: flex!important;
+  }
 }
 @media (max-width: 767px) {
   .hidden-xs {
@@ -39,6 +43,13 @@
   }
   .redes-sociais-footer-mobile {
     display: block !important;
+  }
+  .box-rede {
+    text-align: center;
+    height: auto;
+  }
+  .redes-sociais-footer .b-r {
+    width: 100%;
   }
 }
 .diferencas {
