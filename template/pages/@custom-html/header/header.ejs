@@ -38,15 +38,20 @@ const logo = _.settings.logo
           </a>
         </div>
         <% if (header.contacts_stripe.socials) { %>
-          <div class="col-auto">
-            <% networks.forEach(network => { %>
-              <% if (contacts[network]) { %>
-                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                  <i class="fab fa-<%= network %>"></i>
-                </a>
-              <% } %>
-            <% }) %>
-          </div>
+        <div class="col-auto social">
+          <a href="https://www.facebook.com/BlowHairOficial" target="_blank" rel="noopener">
+            <img src="/img/uploads/face.png" alt="Melhor Goma Para Crescimento Capilar, Goma Crescimento Capilar" border="0">
+          </a>
+          <a href="https://www.youtube.com/channel/UCjzCfUgAZeQKhD7dMjea2Hg" target="_blank" rel="noopener">
+            <img src="/img/uploads/youtube.png" alt="Melhor goma para crescimento capilar, Goma Crescimento Capilar" border="0">
+          </a>
+          <a href="https://www.instagram.com/BlowHairOficial/" target="_blank" rel="noopener">
+            <img src="/img/uploads/insta.png" alt="Instagram" border="0">
+          </a>
+          <a href="http://blog.blowhair.com.br/" target="_blank" rel="noopener">
+            <img src="/img/uploads/blog.png" alt="Melhor goma para crescimento capilar, Goma Crescimento Capilar" border="0">
+          </a>
+        </div>
         <% } %>
 
         <div class="header__col order-lg-last col-auto">
