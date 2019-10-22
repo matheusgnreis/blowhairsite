@@ -34,6 +34,12 @@
   .hidden-xs {
     display: none !important;
   }
+  .kit-blow {
+    display: none !important;
+  }
+  .redes-sociais-footer-mobile {
+    display: block !important;
+  }
 }
 .diferencas {
   text-align:center;border-top:solid 3px #f7004e;padding-top:60px;padding-bottom:80px;border-bottom:solid 3px #f7004e
@@ -114,4 +120,7 @@
 }
 .box-rede {
     height: 185px;
+}
+.redes-sociais-footer .titulo img {
+  max-width: 100%
 }
