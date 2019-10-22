@@ -13,3 +13,10 @@
 .banner-slider {
   max-width: 100% !important;
 }
+.btn.glide__arrow.glide__arrow--right, .btn.glide__arrow.glide__arrow--left {
+  display: none !important;
+}
+.products-carousel .products-carousel__item:first-child, .products-carousel .products-carousel__item:nth-child(2)  {
+  width: 276.77px !important;
+  margin-right: 10% !important;
+}
