@@ -1,11 +1,9 @@
 // Add your custom CSS here.
-.ec-product-card.product-card {
-  text-align: center;
-  background: url(/img/uploads/box-produto.png) no-repeat center top;
-  min-height: 480px!important;
-}
 .products-carousel:first-child > .products-carousel__title {
   display: none !important
+}
+.ec-product-card.product-card {
+  text-align: center;
 }
 .banner-slider {
   max-width: 100% !important;
@@ -33,6 +31,10 @@
     display: -webkit-box!important;
     display: flex!important;
   }
+  .ec-product-card.product-card {
+    background: url(/img/uploads/box-produto.png) no-repeat center top;
+    min-height: 480px!important;
+  }
 }
 @media (max-width: 767px) {
   .hidden-xs {
@@ -53,8 +55,11 @@
   }
   .antes-depois {
     height: auto;
-    background: #e1ebed;
-    margin-bottom: -250px;
+    background: #e1ebed !important;
+    margin-bottom: -230px;
+  }
+  .redes-sociais-footer {
+      height: 550px !important;
   }
 }
 .diferencas {
