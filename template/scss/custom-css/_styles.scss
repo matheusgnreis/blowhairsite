@@ -2,6 +2,11 @@
 .products-carousel:first-child > .products-carousel__title {
   display: none !important
 }
+.ec-product-card__name {
+    font-size: .98rem !important;
+    font-weight: 500 !important;
+    padding: 1rem !important;
+}
 .ec-product-card.product-card {
   text-align: center;
 }
@@ -34,6 +39,9 @@
   .ec-product-card.product-card {
     background: url(/img/uploads/box-produto.png) no-repeat center top;
     min-height: 480px!important;
+  }
+  .hidden-sm {
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
