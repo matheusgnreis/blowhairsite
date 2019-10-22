@@ -20,7 +20,7 @@
   .products-carousel .products-carousel__item:first-child  {
     width: 280px !important;
     margin-right: 10% !important;
-    margin-left: 3%
+    margin-left: 1.5%
   }
   .products-carousel .products-carousel__item:nth-child(2) {
     width: 280px !important;
@@ -29,4 +29,19 @@
   .glide__slides.products-carousel__list {
     width: 1200px !important
   }
+}
+.diferencas {
+  text-align:center;border-top:solid 3px #f7004e;padding-top:60px;padding-bottom:80px;border-bottom:solid 3px #f7004e
+}
+.diferencas .blow1{
+  margin-top:30px
+}
+.diferencas h3{
+  font-weight:500;font-size:18px;color:#b31c3e
+}
+.diferencas h2{
+  font-family:'Just Another Hand',cursive;
+  color:#ed2a56;
+  font-size:56px;
+  font-weight:500
 }
