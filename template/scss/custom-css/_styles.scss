@@ -1,8 +1,5 @@
 // Add your custom CSS here.
 .ec-product-card.product-card {
-  padding: 10px 55px 0 55px;
-  border-radius: 0;
-  border: none;
   text-align: center;
   background: url(/img/uploads/box-produto.png) no-repeat center top;
   min-height: 480px!important;
@@ -12,9 +9,6 @@
 }
 .banner-slider {
   max-width: 100% !important;
-}
-.btn.glide__arrow.glide__arrow--right, .btn.glide__arrow.glide__arrow--left {
-  display: none !important;
 }
 @media (min-width: 998px) {
   .products-carousel .products-carousel__item:first-child  {
@@ -28,6 +22,9 @@
   }
   .glide__slides.products-carousel__list {
     width: 1200px !important
+  }
+  .btn.glide__arrow.glide__arrow--right, .btn.glide__arrow.glide__arrow--left {
+    display: none !important;
   }
 }
 .diferencas {
