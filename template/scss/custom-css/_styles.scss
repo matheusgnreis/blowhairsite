@@ -10,7 +10,7 @@
 .banner-slider {
   max-width: 100% !important;
 }
-@media (min-width: 998px) {
+@media (min-width: 768px) {
   .products-carousel .products-carousel__item:first-child  {
     width: 280px !important;
     margin-right: 10% !important;
@@ -25,6 +25,11 @@
   }
   .btn.glide__arrow.glide__arrow--right, .btn.glide__arrow.glide__arrow--left {
     display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none;
   }
 }
 .diferencas {
@@ -63,7 +68,7 @@
   text-align:left;margin-top:-10px
 }
 .antes-depois{
-  background:url(//cdn.ecvol.com/s/www.blowhair.com.br/uploads/bg-central1.jpg) no-repeat center top;height:auto;position:relative;display:block;padding-bottom:80px
+  background:url(/img/uploads/bg-central1.jpg) no-repeat center top;height:auto;position:relative;display:block;padding-bottom:80px
 }
 .antes-depois .item img{
   padding-bottom:10px
@@ -81,3 +86,32 @@
   font-family:'Just Another Hand',cursive;color:#ed2a56;font-size:66px;font-weight:500;margin-bottom:40px
 }
 .antes-depois .owl-carousel{padding-right:250px}
+.kit-blow {
+    background: url(/img/uploads/kit-blow.jpg) no-repeat center bottom;
+    height: 702px;
+    margin-top: 5%;
+}
+.kit-blow-title {
+    background: url(/img/uploads/kit-blog-title.jpg) no-repeat center top;
+    height: 50px;
+    position: relative;
+}
+.redes-sociais-footer {
+    margin-top: 40px;
+    display: block;
+    padding-top: 50px;
+    background: url(/img/uploads/footer-redes.jpg) no-repeat center bottom;
+    height: 450px;
+}
+.redes-sociais-footer .col-sm-6 {
+    padding: 0;
+}
+.redes-sociais-footer .titulo {
+    padding-bottom: 30px;
+}
+.box-rede {
+    height: 185px;
+}
+.redes-sociais-footer-mobile {
+    display: none;
+}
